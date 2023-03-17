@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+header{
+    padding: 20px 0 119px 0;
+    background-color: rgb(57 10 153 / 72%);
+}
+.container{
+    width: 1200px;
+    margin: auto;  
+}
+.logo{
+    width: 20%;
+    float: left;
+}
+.logo img{
+}
+nav{
+    width: 80%;
+    float: left;
+}
+nav ul{
+    text-align: right;
+}
+nav ul li{
+    display: inline;
+    /* padding: 15px 15px 13px 20px; */
+}
+nav ul li a{
+    padding: 10px 23px;
+    display: inline-block;
+    text-decoration: none;
+    color: #f1f1f4;
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: capitalize;
+} 
+.banner{
+    text-align: center;
+    color: white;
+}
+.banner h1{
+    font-size: 63px;
+    padding-top: 150px;
+}
+.banner p{ 
+padding-top: 20px;
+}
+
+/* blog starts */
+section{
+    overflow: hidden;
+    margin: 0 0 0 0;
+}
+.img{
+    max-width: 100%;
+}
+.blog{
+    padding: 20px 0;
+}
+.details-info{
+    width: 50%;
+    float: left;
+}
+.detail{
+    padding: 50px;
+}
+.detail img{
+    max-width
+} 
+.detail h3{
+    font-weight: 700;
+    font-size: 35px;
+    margin: 20px 0;
+} 
+.detail p{
+    text-align: justify;
+} 
+/* button */
+.button{
+    border-radius: 5px;
+    background-color: #272755;
+    padding: 15px 25px;
+    font-size: 18px;
+    color: white;
+    border: 1px solid #272755;
+    margin-top: 15px;
+    font-weight: 600;
+}
+.button:hover{
+    cursor: pointer;
+    color:black;
+    background-color: white;
+}
+/* footer section starts */
+footer{
+    background-color: #5f9ea009;
+    padding-top: 40px;
+}
+.footer-items{
+    width: 25%;
+    float: left;
+}
+.footer-items img{
+    padding: 15px 0;
+}
+.footer-items p{
+    text-align: justify;
+    line-height: 30px;
+}
+.footer-items h4{
+    font-size: 25px;
+    text-align: center;
+}
+.footer-items li{
+    padding-top: 30px;
+    list-style: none;
+    text-align: center;
+}
+.footer-items li a{
+    text-decoration: none;
+    color: #000000cc;
+    /* text-align: center; */
+}
+.item{
+    padding: 25px 21px;
+}
+.footer-image{
+    max-width: 100%;
+}
